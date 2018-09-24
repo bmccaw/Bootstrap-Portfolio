@@ -1,3 +1,8 @@
-/*h2 {
-    border:5px solid #cccccc;
-}*/
+.content {
+    min-height: calc(100vh - 70px);
+    
+  }
+  .footer {
+    height: 50px;
+    background: #777777;
+  }
