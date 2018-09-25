@@ -1,8 +1,33 @@
+html,body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Assets/images/skulls.png);
+}
 .content {
-    min-height: calc(100vh - 70px);
-    
+    flex: 1 0 auto;
   }
-  .footer {
-    height: 50px;
+.content-box {
+    background-color: #ffffff;
+  }
+.footer {
+    flex-shrink: 0;
     background: #777777;
+    margin: 0px;
+    padding: 5px;
   }
+.copyright {
+    text-align: center;
+    padding-top:5px;
+  }
+.navbar-brand {
+    padding:0px;
+  }
+#niccage {
+  background-image: url(../Assets/Images/niccage275x200.jpg);
+}
+#meat {
+  background-image: url(../Assets/Images/ribeye2-275-200.jpg);
+}
